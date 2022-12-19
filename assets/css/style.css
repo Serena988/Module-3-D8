@@ -111,7 +111,7 @@ body {
 
   100% {
     animation-timing-function: ease-out;
-    transform: translate(1500px, 140px) rotate(360deg);
+    transform: translate(1650px, 140px) rotate(360deg);
   }
 }
 
@@ -139,6 +139,6 @@ body {
   }
 
   100% {
-    transform: translatex(1400px) scale(0.3);
+    transform: translatex(1650px) scale(0);
   }
 }
