@@ -32,7 +32,7 @@ body {
   height: 100%;
   background-size: 100%;
   position: relative;
-  animation: bounce 3s linear infinite;
+  animation: bounce 2.3s linear infinite;
 
 }
 
@@ -74,7 +74,7 @@ body {
   position: absolute;
   top: 610px;
   left: 50px;
-  animation: shadow 3s linear infinite;
+  animation: shadow 2.3s linear infinite;
   transform: scale(0.7);
   filter: blur(4px);
   z-index: -1;
@@ -94,7 +94,6 @@ body {
 @keyframes bounce {
 
   0% {
-
     transform: translate(0, 0) rotate(0deg);
   }
 
@@ -111,6 +110,7 @@ body {
   }
 
   100% {
+    animation-timing-function: ease-out;
     transform: translate(1500px, 140px) rotate(360deg);
   }
 }
